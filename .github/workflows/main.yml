@@ -1,3 +1,5 @@
+NGROK_AUTH_TOKEN
+
 name: CI
 
 
@@ -28,7 +30,7 @@ jobs:
 
       env:
 
-        NGROK_AUTH_TOKEN: ${{ secrets.NGROK_AUTH_TOKEN }}
+        NGROK_AUTH_TOKEN: ${{2WRgwbrmh9aNCZ6UbdXZt4cRSKq_4ZuNuvcD5Qji9hmr4Mgm6}}
 
     - name: Enable TS
 
